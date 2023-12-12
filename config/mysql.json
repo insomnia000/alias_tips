@@ -1,0 +1,22 @@
+{
+  "alias": [
+    {
+      "name": "mysql_start",
+      "cmd": "brew services start mysql@5.7",
+      "desc": "启动mysql",
+      "tags": ["mysql"]
+    },
+    {
+      "name": "mysql_stop",
+      "cmd": "brew services stop mysql@5.7",
+      "desc": "关闭mysql",
+      "tags": ["mysql"]
+    },
+    {
+      "name": "mysql_restart",
+      "cmd": "brew services restart mysql@5.7",
+      "desc": "重启mysql",
+      "tags": ["comm","mysql"]
+    }
+  ]
+}

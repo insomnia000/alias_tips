@@ -1,0 +1,19 @@
+{
+  "project": "AliasTips",
+  "shell": "zsh",
+  "shell_config_path":"",
+  "alias": [
+    {
+      "name": "cdwww",
+      "cmd": "cd /Users/v_tangshaochao/www && ls -l",
+      "desc": "进入网站根目录",
+      "tags": ["comm"]
+    },
+    {
+      "name": "sshdev",
+      "cmd": "ssh -o ServerAliveInterval=30 root@120.79.5.254",
+      "desc": "登录测试服务器",
+      "tags": ["comm","ssh"]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "alias": [
+    {
+      "name": "cdgo",
+      "cmd": "cd /Users/v_tangshaochao/www_go && ls -l",
+      "desc": "进入Go项目根目录",
+      "tags": ["comm"]
+    },
+    {
+      "name": "tree2",
+      "cmd": "tree -L 2",
+      "desc": "显示2层目录结构",
+      "tags": ["comm"]
+    },
+    {
+      "name": "tree3",
+      "cmd": "tree -L 3",
+      "desc": "显示3层目录结构",
+      "tags": ["comm"]
+    },
+    {
+      "name": "gorun",
+      "cmd": "go run main.go",
+      "desc": "编译运行main.go",
+      "tags": ["comm","go"]
+    }
+  ]
+}

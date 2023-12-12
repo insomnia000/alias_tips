@@ -1,0 +1,22 @@
+{
+  "alias": [
+    {
+      "name": "fpm_start",
+      "cmd": "brew services start php@8.0",
+      "desc": "启动php_fpm",
+      "tags": ["php"]
+    },
+    {
+      "name": "fpm_stop",
+      "cmd": "brew services stop php@8.0",
+      "desc": "停止php_fpm",
+      "tags": ["php"]
+    },
+    {
+      "name": "fpm_restart",
+      "cmd": "brew services restart php@8.0",
+      "desc": "重启php_fpm",
+      "tags": ["comm","php"]
+    }
+  ]
+}

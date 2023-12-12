@@ -1,0 +1,16 @@
+{
+  "alias": [
+    {
+      "name": "gpull",
+      "cmd": "git fetch origin && git pull --rebase",
+      "desc": "拉取最新代码",
+      "tags": ["comm","git"]
+    },
+    {
+      "name": "gpush",
+      "cmd": "git push origin HEAD:refs/for/master",
+      "desc": "推送代码到线上master",
+      "tags": ["comm","git"]
+    }
+  ]
+}

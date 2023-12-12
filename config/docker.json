@@ -1,0 +1,16 @@
+{
+  "alias": [
+    {
+      "name": "dkimg",
+      "cmd": "docker images",
+      "desc": "查看docker镜像",
+      "tags": ["docker"]
+    },
+    {
+      "name": "dkps",
+      "cmd": "docker ps",
+      "desc": "查看docker正在运行的容器",
+      "tags": ["docker"]
+    }
+  ]
+}
